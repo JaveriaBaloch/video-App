@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.bg-black{
+  background: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+ background:url(./components/img/logo.jpeg);
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+ background-size: cover;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner{
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(./components/img/logo.jpeg);
+  background-size: cover;
+  border-radius: 1rem;
+  padding: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user-img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.c-img{
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  margin-left: 1rem;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userImage{
+  width: 350px;
+  object-fit: cover;
+  height: 350px;
+  border-radius: 50%;
 }
